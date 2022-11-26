@@ -1,6 +1,8 @@
 //your code here
 function myFunction() {
+    
     var x = document.getElementById("evaluatedText").value;
-
-    document.getElementById("wordCount").innerHTML =  x.length;
+    var a = x.split(" ");
+    console.log(a);
+    document.getElementById("wordCount").innerHTML =  a.length;
   }

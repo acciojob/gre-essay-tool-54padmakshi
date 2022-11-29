@@ -14,3 +14,4 @@ function myFunction() {
    // console.log(b);
     document.getElementById("wordCount").innerHTML =  b.length;
 }
+document.getElementById("evaluatedText").addEventListener('keyup',myFunction)
